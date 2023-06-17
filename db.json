@@ -1,17 +1,37 @@
 {
-  "name": "John Doe",
-  "age": 30,
-  "email": "johndoe@example.com",
-  "address": {
-    "street": "123 Main Street",
-    "city": "Anytown",
-    "state": "California",
-    "zip": "12345"
-  },
-  "interests": [
-    "reading",
-    "traveling",
-    "cooking"
-  ],
-  "isStudent": true
+  "people": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "address": {
+        "street": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      }
+    }
+  ]
 }
