@@ -1,19 +1,37 @@
 {
-  "wrestlers": [
+  "people": [
     {
       "id": "1",
-      "name": "Triple H",
-      "email": "tripleh@example.com"
-      },
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
     {
       "id": "2",
-      "name": "The Rock",
-      "email": "therock@example.com"
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      }
     },
     {
       "id": "3",
-      "name": "Undertaker",
-      "email": "undertaker@example.com"
+      "name": "Bob Johnson",
+      "email": "bobjohnson@example.com",
+      "address": {
+        "street": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      }
     }
   ]
 }
